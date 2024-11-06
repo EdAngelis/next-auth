@@ -10,7 +10,7 @@ export default async function SignIn() {
   return (
     <>
     <div>
-      <img src={image} alt="User Avatar" />
+      <img src={image as string} alt="User Avatar" />
     </div>
     <form
       action={async () => {
